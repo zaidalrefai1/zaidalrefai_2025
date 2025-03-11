@@ -9,9 +9,9 @@ body {
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#f0e7d5;
   font-weight: normal;
-  background: #252525;
+  background: #2e5a31;
   background-attachment: fixed !important;
-  background: linear-gradient(#2a2a29, #1c1c1c);
+  background: linear-gradient(#2e5a31, #2e5a31);
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -51,12 +51,12 @@ h3 {
 }
 
 a {
-  color:#ffcc00;
+  color:#337b3e;
   font-weight:400;
   text-decoration:none;
 
   &:hover {
-    color: #ffeb9b;
+    color: #23522a;
   }
 }
 
@@ -88,7 +88,7 @@ section img {
 }
 
 blockquote {
-  border-left:3px solid #ffcc00;
+  border-left:3px solid #203f22;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -170,7 +170,7 @@ dt {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 10px;
-    background: blue;
+    background: #2e5a31;
     margin: 6px auto;
 
     ul {
@@ -191,11 +191,11 @@ dt {
         a {
           color: white;
           border: 1px solid #5d910b;
-          background: linear-gradient(#93bd20, #659e10);
+          background: linear-gradient(#2e5a31, #1f3d21);
           border-radius: 2px;
           box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
 
-          background-color: #93bd20;
+          background-color: #2e5a31;
           padding: 10px 12px;
           margin-top: 6px;
           line-height:14px;
@@ -204,9 +204,9 @@ dt {
           text-align:center;
 
           &:hover {
-            background: linear-gradient(#749619, #527f0e);
-            background-color: #659e10;
-            border: 1px solid #527f0e;
+            background: linear-gradient(#1c371e, #2b6e30);
+            background-color: #2e5a31;
+            border: 1px solid #000000;
             box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
           }
         }
